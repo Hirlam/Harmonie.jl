@@ -1,0 +1,9 @@
+{
+  "type": "array",
+  "format": "tabs",
+  "description" : "Member settings",
+  "uniqueItems": true,
+  "items": {
+    "$ref" : "member.schema.json"
+  }
+}

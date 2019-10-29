@@ -29,6 +29,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
   -->
 
+  <!-- Spectre  --> 
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+  <!-- --> 
+
   <!-- Handlebars -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
 
@@ -37,7 +43,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.5.1/flatpickr.min.css" />
 
   <!-- JSON-Editor -->
-  <script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor/dist/jsoneditor.min.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor@latest/dist/jsoneditor.min.js"></script>  
+                                            
   <style type="text/css">
   body {
     margin: 1em;
@@ -65,7 +72,7 @@
     function schemacallback(schema_data) {
       var options = {  
             iconlib  : 'bootstrap3',
-            theme :  'bootstrap3',
+            theme :  'spectre',
             template :'handlebars',
             ajax : true,
             required_by_default : false,

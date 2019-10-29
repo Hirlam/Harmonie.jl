@@ -33,6 +33,8 @@
     "description" : {
       "type" : "string"
     },
+    
+
     "Geometry": {
       "$ref": "schema/geometry/geometry.schema.json"
     },
@@ -77,6 +79,9 @@
     },
     "Build" : {
       "$ref" : "schema/build/build.schema.json"
-    }    
+    },    
+    "Member" : {
+      "$ref" : "member_array.schema.json"   
+    }
   }
 }
