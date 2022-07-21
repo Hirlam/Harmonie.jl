@@ -7,11 +7,10 @@
 
 ## Install
 
-Inside the [julia package manager](https://docs.julialang.org/en/v1/stdlib/Pkg/index.html)
+Harmonie.jl is in the [HarmonieRegistry](https://github.com/Hirlam/HarmonieRegistry) and can be installed with (Hit `]` in the Julia REPL to go into package mode)  
 
 ```julia  
-(v1.1) pkg> add https://github.com/wildart/TOML.jl
-(v1.1) pkg> add https://github.com/Hirlam/Harmonie.jl
+(v1.7) pkg> add Harmonie 
 ```
 
 ## Roadmap 
