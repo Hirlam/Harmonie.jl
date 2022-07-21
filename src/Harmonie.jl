@@ -1,6 +1,6 @@
 module Harmonie
 
-import JSONSchema, JSON, Glob
+import JSONSchema, JSON 
 import Base.isvalid
 
 export isvalid, diagnose
@@ -19,7 +19,7 @@ Initialize Harmonie.schema from Harmonie.schemafile.
 """
 function __init__()
 # Should we remove __init__ and read schema at compile time instead of runtime to make it const? 
-   global schema = JSONSchema.Schema(read(schemafile,String),parentFileDirectory="$moduledir/../docs") 
+   global schema = JSONSchema.Schema(read(schemafile,String),parent_dir="$moduledir/../docs") 
    return nothing
 end 
 
